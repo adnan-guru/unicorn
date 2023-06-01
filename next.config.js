@@ -25,19 +25,19 @@ const nextConfig = {
     sassOptions: {
         includePaths: [path.join(__dirname, 'styles')],
     },
-    images: {
-        dangerouslyAllowSVG: true,
-        contentSecurityPolicy:
-            "default-src 'self'; script-src 'none'; sandbox;",
-        domains: [
-            'firebasestorage.googleapis.com',
-            'lh3.googleusercontent.com',
-            'gateway.pinata.cloud',
-            'gateway.ipfscdn.io',
-            'bafybeih5dnjoda4qc7csvd5hizn7dnccc7ppvxzotubbtut5z7f7ijgqxu',
-        ],
-        formats: ['image/avif', 'image/webp'],
-    },
+    // images: {
+    //     dangerouslyAllowSVG: true,
+    //     contentSecurityPolicy:
+    //         "default-src 'self'; script-src 'none'; sandbox;",
+    //     domains: [
+    //         'firebasestorage.googleapis.com',
+    //         'lh3.googleusercontent.com',
+    //         'gateway.pinata.cloud',
+    //         'gateway.ipfscdn.io',
+    //         'bafybeih5dnjoda4qc7csvd5hizn7dnccc7ppvxzotubbtut5z7f7ijgqxu',
+    //     ],
+    //     formats: ['image/avif', 'image/webp'],
+    // },
 }
 
 module.exports = nextConfig
